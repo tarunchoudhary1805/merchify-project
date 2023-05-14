@@ -1,0 +1,71 @@
+:root {
+  --primary: rgb(86, 0, 93);
+  --bg-primary: rgb(254, 228, 254);
+  --secondary: rgb(19, 134, 3);
+}
+
+.hero_section {
+  /* height: 30vh; */
+  background-image: url("./../assets/hero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* transform: scaleX(-1); */
+  z-index: 100;
+}
+
+.primary-button {
+  background-color: var(--primary);
+  color: #fff;
+}
+.secondary-button {
+  background-color: var(--secondary);
+  color: #fff;
+}
+
+.logo {
+  color: var(--primary);
+}
+.hero_section h2 {
+  color: var(--primary);
+}
+.hero_section span {
+  color: var(--secondary);
+}
+.hero_section img {
+  z-index: 100;
+}
+
+.details_section h3 {
+  color: var(--primary);
+}
+
+.quiz_para span {
+  color: var(--secondary);
+}
+
+.text-primary {
+  font-weight: bold;
+  font-size: 25px;
+  color: var(--primary);
+}
+
+.bg-primary {
+  background-color: var(--bg-primary);
+}
+input[type="radio"] {
+  accent-color: var(--secondary);
+}
+
+.quiz_rules {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+
+  transition: transform 0.3s;
+}
+
+.trans {
+  transform: scaleX(-1);
+}
